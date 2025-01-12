@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>Zuma Restaurant</title>
+
+<link rel="stylesheet" href="style.css"></link>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body style="background-color: rgb(10, 8, 8); color: rgb(237, 231, 231); margin: 0; padding: 0;">
+
+<body>
+
+<div id="logo-container" style="text-align: center; padding: 20px;">
+    <img src="logo.png" alt="Zuma Restaurant Logo" style="width: 200px; height: auto;">
+</div>
+
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">HOME</a>
+  <a href="about.html">ABOUT US</a>
+  <a href="book.html">BOOK A TABLE</a>
+  <a href="contact.html">CONTACT</a>
+  <a href="venue.html">VENUE</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div id="slider" class="row justify-content-center">
+</div>
+
+<div id="content-container" class="row">
+	<div class="content col-lg-3 col-md-3 col-sm-12" id="content1">
+   <img src="contentcontainer1.jpg" width="220px" height="220px">
+ </div>
+ 
+    <div class="content col-lg-3 col-md-3 col-sm-12">
+        <h2>Special Offer</h2>
+        <p>Enjoy our exclusive sushi promotion for a limited time! Indulge in a selection of premium nigiri, sashimi, and signature rolls, all crafted with the freshest ingredients. It’s the perfect opportunity to experience authentic flavors at an unbeatable value. Don’t miss out—treat yourself to a sushi experience like no other at Zuma Restaurant.</p>
+    </div>
+    
+     <div class="content col-lg-3 col-md-3 col-sm-12" id="content3">
+      <img src="contentcontainer2.jpg" width="220px" height="220px">
+</img>
+    </div>
+    
+    <div class="content col-lg-3 col-md-3 col-sm-12" >
+        <h2>Japanese Food Festival</h2>
+        <p>Join us for a week-long celebration of Japanese cuisine, from November 18th to 24th! During our Japanese Food Festival, indulge in a curated menu of special dishes, showcasing the finest flavors and traditional ingredients from across Japan. </p>
+    </div>
+</div>
+
+<div id="footer" class="row justify-content-center">
+    <div class="col-12 text-center text-black">
+        &copy; 2024 Zuma Restaurant | All Rights Reserved
+    </div>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+
+<!-- BOOTSTRAP CALL-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+<!-- FINISHED -->
+
+</html>
